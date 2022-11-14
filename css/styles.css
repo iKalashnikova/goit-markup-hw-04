@@ -417,7 +417,7 @@ img {
   width:206px;
   outline: 2px solid red;
   background-position: center; */
-*/
+
 
 /* .comand-list{
 outline: solid teal;
@@ -428,7 +428,7 @@ outline: solid teal;
 .portfolio-section {
   padding-top: 100px;
   padding-bottom: 94px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .portfolio-title {
