@@ -90,8 +90,10 @@ img {
 /* контакти */
 
 .contact-link {
-  color: var(--title-text-color);
+  color: var(--text-color);
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .contact-link:hover,
@@ -155,6 +157,7 @@ img {
 
 .contact-list {
   margin-left: auto;
+  /* align-items: center; */
   /* background-color: teal; */
 }
 
@@ -347,8 +350,12 @@ img {
   gap: 30px;
 }
 
+.comand-container{
+  /* outline: 2px solid red; */
+  padding: 30px 32px;
+}
+
 .comand-title {
-  margin-top: 30px;
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -359,7 +366,7 @@ img {
 }
 
 .comand-text {
-  padding-bottom: 30px;
+  margin-bottom: 16px;
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.19;
@@ -485,8 +492,7 @@ outline: solid teal;
 }
 
 .portfolio-item:hover{
-  box-shadow:  2px 2px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .portfolio-border {
@@ -514,7 +520,7 @@ outline: solid teal;
 
 .client-title {
   padding-bottom: 50px;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -522,13 +528,13 @@ outline: solid teal;
 }
 
 .client-link {
-  width: 170 px;
+  width: 170px;
   height: 92px;
   display: flex;
   padding: 16px 32px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
 }
 
 .client-link:hover,
@@ -573,7 +579,7 @@ outline: solid teal;
   text-decoration: none;
   font-family: raleway, sans-serif;
   letter-spacing: 0.03em;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 26px;
   line-height: 1.2;
 }
@@ -603,8 +609,8 @@ outline: solid teal;
 }
 
 .invite-title{
-  margin-bottom: 20px;
-    font-weight: 700;
+  /* margin-bottom: 20px; */
+    font-weight: 700px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -614,6 +620,7 @@ outline: solid teal;
 }
 
 .invite-list{
+  margin-top: 20px;
   display: flex;
   gap: 10px;
 
